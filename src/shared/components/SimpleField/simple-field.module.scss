@@ -1,0 +1,67 @@
+.formGroup {
+  position: relative;
+
+  @media screen and (min-width: 320px) and (max-width: 767.9px) {
+    margin-bottom: 40px;
+  }
+}
+
+.formGroup svg {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+
+.formGroup svg * {
+  fill: #e0e0e0;
+  transition: fill 200ms;
+}
+
+.field {
+  @media screen and (max-width: 767.9px) {
+    padding-left: 20px;
+  }
+
+  width: 100%;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  font-family: CirceRegular;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  outline: none;
+
+  transition: border-color 200ms;
+}
+
+.field:focus {
+  border-color: #000000;
+}
+
+.field::placeholder {
+  color: #bdbdbd;
+}
+
+.iconField {
+  padding-left: 54px;
+}
+
+.iconField:focus + svg * {
+  fill: #000000;
+}
+
+.centered {
+  font-family: CirceBold;
+
+  @media screen and (min-width: 768px) {
+    text-align: center;
+    width: 181px;
+  }
+}

@@ -1,0 +1,51 @@
+.form {
+  width: 100%;
+  border-radius: 20px;
+
+  @media screen and (min-width: 768px) {
+    width: 533px;
+    padding: 40px 58.5px 66px 65px;
+    margin-bottom: 48px;
+    background-color: #fff;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
+  }
+}
+
+.logoBox {
+  display: flex;
+  gap: 15.5px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet {
+  display: flex;
+  align-items: center;
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.fieldsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.buttonsWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}

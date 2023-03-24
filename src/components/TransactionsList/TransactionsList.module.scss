@@ -1,0 +1,96 @@
+.title {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 704px;
+  @media screen and (min-width: 1280px) {
+    width: 715px;
+  }
+  height: 58px;
+  padding: 15px 130px 15px 20px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.title p {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+.img {
+  margin: 0 auto;
+  display: block;
+}
+.titleText {
+  text-align: center;
+  font-family: CirceRegular;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.28;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+.textLover {
+  text-align: center;
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+// .thead {
+//   height: 58px;
+//   background: #ffffff;
+//   border-radius: 30px;
+//   outline: 1px solid red;
+// }
+// .table {
+//   min-width: 715px;
+// }
+// .thead th {
+//   //   text-align: center;
+// }
+// .thead th {
+//   font-family: CirceRegular;
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 27px;
+//   /* identical to box height */
+
+//   //   text-align: right;
+
+//   color: #000000;
+
+//   //   padding: 15px;
+//   text-align: center;
+// }
+
+// tbody td {
+//   text-align: center;
+// }
+
+// .date {
+//   padding: 15px 0 15px 20px;
+// }
+// .type {
+//   padding: 15px 47px 15px 72px;
+// }
+// .category {
+//   padding: 15px 0 15px 0;
+// }
+// .comment {
+//   padding: 15px 115px 15px 75px;
+// }
+// .sum {
+//   padding: 15px 130px 15px 0;
+// }
+// .free {
+// }

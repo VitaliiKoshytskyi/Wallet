@@ -1,0 +1,31 @@
+.link {
+  @media screen and (min-width: 320px) {
+    width: 280px;
+    display: block;
+    height: 50px;
+    padding: 13px;
+    text-decoration: none;
+
+    font-family: CirceRegular;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #4a56e2;
+    background-color: #ffffff;
+    border: 1px solid #4a56e2;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 400ms;
+
+    &:hover,
+    &:focus {
+      background-color: #ececec;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+  }
+}

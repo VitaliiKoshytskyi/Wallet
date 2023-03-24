@@ -1,0 +1,50 @@
+.pageLayoutWrapperInner {
+  min-height: calc(100vh - 80px);
+  background: hsla(0, 0%, 100%, 0.4);
+
+  @media screen and (min-width: 768px) {
+    backdrop-filter: blur(25px);
+  }
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 12px;
+
+  @media screen and (max-width: 767.9px) {
+    padding-top: 15px;
+    gap: 15px;
+    padding-top: 80px;
+  }
+
+  @media screen and (max-width: 1279px) {
+    flex-direction: column;
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 32px;
+  }
+
+  @media (min-width: 1280px) {
+    padding-top: 40px;
+  }
+}
+
+.pageLayoutContainer {
+  @media (min-width: 768px) {
+    height: calc(100vh - 80px);
+  }
+
+  @media (min-width: 1280px) {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      display: inline-block;
+      width: 1px;
+      margin-left: 480px;
+      height: 100%;
+      background-color: #e7e5f2;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import '/src/shared/styles/variables';
+
+.label {
+  font-family: CirceBold;
+  font-size: 18px;
+  line-height: calc(27 / 18);
+}
+
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  @media screen and (max-width: 767.98px) {
+    width: 280px;
+    height: 280px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    height: 336px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 288px;
+    height: 288px;
+  }
+}
+
+.descr {
+  @media screen and (max-width: 767.98px) {
+    width: 270px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 325px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 280px;
+  }
+  font-family: CirceBold;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(27 / 18);
+  text-align: center;
+
+  color: getColor('text-color');
+}
+

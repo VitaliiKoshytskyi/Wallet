@@ -1,0 +1,111 @@
+.box {
+  width: 100%;
+  position: relative;
+  height: 331px;
+  border-radius: 30px;
+  background: url(../../../../images/svg/Vector7-320px.svg), linear-gradient(#6e78e8 50px, #4a56e2 50px);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+  @media screen and (max-width: 767.9px) {
+    margin-top: 16px;
+  }
+
+  @media screen and (max-width: 1279px) {
+    height: 182px;
+  }
+
+  @media (min-width: 768px) {
+    background: url(../../../../images/svg/Vector7-768px.svg), linear-gradient(#6e78e8 50px, #4a56e2 50px);
+    background-repeat: no-repeat;
+    background-position: 100% 115%;
+  }
+
+  @media (min-width: 1280px) {
+    width: 393px;
+    height: 331px;
+    background: url(../../../../images/svg/Vector7.svg), linear-gradient(#6e78e8 60px, #4a56e2 60px);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+}
+
+.upperBox {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 30px 30px 0px 0px;
+  height: 60px;
+  padding: 0 20px;
+  width: 100%;
+
+  @media screen and (min-width: 1280px) {
+    padding: 0 44px;
+  }
+}
+
+.loverBox {
+  padding: 0 20px;
+  font-family: CirceRegular;
+
+  @media screen and (min-width: 1280px) {
+    padding: 0 44px;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0 12px 0;
+
+  @media screen and (min-width: 1280px) {
+    padding: 20px 0 24px 0;
+  }
+}
+
+.boxLoader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-family: CirceBold;
+  font-size: 18px;
+  line-height: calc(26.53 / 18);
+  color: #ffffff;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.currencyError {
+  position: absolute;
+  transform: translateY(-50%);
+  padding: 0 44px;
+
+  font-family: CirceBold;
+  color: red;
+  font-size: 20px;
+
+  @media screen and (min-width: 320px) and (max-width: 767.9px) {
+    top: 62%;
+    padding: 0 35px;
+    color: red;
+  }
+
+  @media screen and (min-width: 768px) {
+    top: 60%;
+  }
+
+  @media screen and (min-width: 1280px) {
+    top: 40%;
+  }
+}
+
+.bar {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

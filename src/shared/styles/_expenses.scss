@@ -1,0 +1,173 @@
+.Main.expenses {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Main.expenses::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fed057;
+}
+
+.Products {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Products::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffd8d0;
+}
+
+.Car {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Car::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fd9498;
+}
+
+.Self.care {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Self.care::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #c5baff;
+}
+.Child.care {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Child.care::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #6e78e8;
+}
+.Household.products {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Household.products::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #4a56e2;
+}
+.Education {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Education::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #81e1ff;
+}
+.Leisure {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Leisure::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #24cca7;
+}
+.Other.expenses {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Other.expenses::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #00ad84;
+}
+.Entertainment {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.Entertainment::before {
+  content: '';
+  margin-right: 16px;
+  border-radius: 2px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #2c3230;
+}

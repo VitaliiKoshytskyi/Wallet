@@ -1,0 +1,38 @@
+.button {
+  width: 44px;
+  height: 44px;
+  background-color: #24cca7;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 0V20' stroke='white' stroke-width='2'/%3E%3Cpath d='M0 10L20 10' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(36, 204, 167, 0.5) 0 6px 15px;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: transform 200ms;
+
+  position: sticky;
+  top: 90%;
+  margin-left: calc(100% - 44px);
+
+  @media (max-width: 767px) {
+    margin-top: -44px;
+  }
+
+  @media (min-width: 768px) {
+    position: absolute;
+    right: 45px;
+    bottom: 24px;
+    z-index: 100;
+  }
+
+  @media (min-width: 1280px) {
+    right: 20px;
+    bottom: 40px;
+  }
+}
+
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+}

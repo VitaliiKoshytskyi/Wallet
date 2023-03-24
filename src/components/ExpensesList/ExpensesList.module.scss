@@ -1,0 +1,94 @@
+.title {
+  // border: 1px solid rgb(228, 171, 171);
+
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.heading {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.income {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expenses {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textE {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #000000;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.textI {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #000000;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.expensesText {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff6596;
+}
+
+.incomeText {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #24cca7;
+}

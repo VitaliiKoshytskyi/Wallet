@@ -1,0 +1,21 @@
+body {
+  background-color: #e7eaf2;
+
+  @media screen and (min-width: 768px) and (max-width: 1279.9px) {
+    background-color: #e7eaf2;
+    background-image: url(../../images/background/Ellipse1.png), url(../../images/background/Ellipse2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, top right -200px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-color: #e7eaf2;
+    background-image: url(../../images/background/Ellipse1.png), url(../../images/background/Ellipse2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, top right;
+  }
+}
+
+body.activeBody {
+  overflow: hidden;
+}

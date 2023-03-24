@@ -1,0 +1,18 @@
+$colors: (
+  text-color: #000000,
+  secondary-text-color: #bdbdbd,
+
+  primary-color: #24cca7,
+  secondary-color: #ff6596,
+  white-color: #ffffff,
+  blue-color: #4a56e2,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
+
+// образец, как применить:
+// .list {
+//     color: getColor('text-color')
+// }

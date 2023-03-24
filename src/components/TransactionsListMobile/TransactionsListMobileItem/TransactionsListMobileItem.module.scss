@@ -1,0 +1,101 @@
+.box {
+  margin-top: 32px;
+  margin: 8px auto;
+  width: 100%;
+}
+.box + .box {
+  margin: 8px auto;
+}
+.table td {
+  vertical-align: middle;
+}
+
+.tbody {
+  height: 282px;
+}
+tbody:first-child {
+  margin-top: 32px;
+}
+.body {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #000000;
+  text-align: end;
+  padding-right: 20px;
+}
+.head {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+  padding-left: 20px;
+}
+.table tr {
+  vertical-align: middle;
+  height: 47px;
+  border-bottom: 1px solid #dcdcdf;
+}
+.table {
+  overflow: hidden;
+  background-color: #fff;
+  border-collapse: collapse;
+  border-radius: 10px;
+  min-width: 280px;
+  max-width: 100%;
+  margin: 8px auto;
+}
+
+.table .green {
+  border-left: 5px solid #24cca7;
+}
+.table .red {
+  border-left: 5px solid #ff6596;
+}
+
+.greenSum {
+  color: #24cca7;
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.redSum {
+  color: #ff6596;
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.edit {
+  font-family: CirceRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #000000;
+}
+
+.editBox {
+  width: 52px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+}

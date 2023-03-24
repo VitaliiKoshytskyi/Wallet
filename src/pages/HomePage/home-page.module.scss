@@ -1,0 +1,18 @@
+.wrapper {
+  @media screen and (min-width: 1280px) {
+    width: 784px;
+  }
+}
+
+.title {
+  font-size: 25px;
+  margin: 20px auto 20px 20px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.wrap {
+  @media (max-width: 767px) {
+    min-height: calc(100vh - 80px - 44px);
+  }
+}

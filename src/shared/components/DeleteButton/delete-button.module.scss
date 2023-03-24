@@ -1,0 +1,21 @@
+.button {
+  width: 67px;
+  height: 26px;
+  font-family: 'CirceRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #24cca7;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background-color 400ms;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #21bd9b;
+}

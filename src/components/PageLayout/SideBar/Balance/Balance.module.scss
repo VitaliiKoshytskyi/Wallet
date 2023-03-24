@@ -1,0 +1,29 @@
+.balance {
+  padding: 8px 0 11px 32px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-color: #fff;
+
+  @media (min-width: 768px) {
+    display: block;
+    width: 336px;
+    padding: 8px 0 11px 40px;
+  }
+
+  @media (min-width: 1280px) {
+    margin: 32px 0;
+    max-width: 395px;
+  }
+}
+
+.balanceTitle {
+  font-family: CirceRegular;
+  font-size: 12px;
+  color: #a6a6a6;
+}
+.balanceValue {
+  font-family: PoppinsBold;
+  color: #000000;
+  font-size: 30px;
+}

@@ -1,0 +1,81 @@
+.wrapper {
+  position: relative;
+}
+
+.formGroup {
+  position: relative;
+}
+
+.formGroup svg {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+
+.formGroup svg * {
+  fill: #e0e0e0;
+  transition: fill 200ms;
+}
+
+.field {
+  width: 100%;
+  height: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  font-family: CirceRegular;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  outline: none;
+
+  transition: border-color 200ms;
+}
+
+.field:focus {
+  border-color: #000000;
+}
+
+.field::placeholder {
+  color: #bdbdbd;
+}
+
+.iconField {
+  padding-left: 54px;
+}
+
+.iconField:focus + svg * {
+  fill: #000000;
+}
+
+.invalid {
+  border-color: #ff6596;
+}
+
+.invalid + svg * {
+  fill: #ff6596;
+}
+
+.filled {
+  color: #000000;
+  border-color: #24cca7;
+}
+
+.filled + svg * {
+  fill: #24cca7;
+}
+
+.hint {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 100%;
+  font-family: CirceRegular;
+  font-size: 14px;
+  color: #ff6596;
+}
